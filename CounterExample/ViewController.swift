@@ -11,9 +11,8 @@ import ReSwift
 
 
 class ViewController: UIViewController, StoreSubscriber {
-    typealias StoreSubscriberStateType = AppState
-
     
+    typealias StoreSubscriberStateType = AppState
     @IBOutlet weak var counterLabel: UILabel!
     
     override func viewDidLoad() {
